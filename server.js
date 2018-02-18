@@ -6,8 +6,6 @@ const apiRoutes = require("./server/apiRoutes");
 
 const app = express();
 
-htmlRoutes(app);
-apiRoutes(app);
 const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
